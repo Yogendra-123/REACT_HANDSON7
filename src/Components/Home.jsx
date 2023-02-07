@@ -7,8 +7,7 @@ const Home = () => {
         <br/>
         <br/>
         <hr/>
-       <b style={{fontSize : '3em'}}> Welcome to React DashBoard !!!!</b>
-       <hr/>
+<h1 style={{fontSize:'22px'}}>Home</h1>       <hr/>
     </div>
   )
 }
