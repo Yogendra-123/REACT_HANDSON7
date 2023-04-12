@@ -39,11 +39,7 @@ navigate('/')
   <Route path='/student' element={<Student />}/>
   <Route path='/addstudent' element={<AddStudent />}/>
   <Route path='/contact' element={<Contact />}/>
- 
   <Route path='/editstudent' element={<EditStudent />}/>
-  
-
-
 </Routes>
     </Provider>
 </div>
