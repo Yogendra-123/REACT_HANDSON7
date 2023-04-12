@@ -3,8 +3,10 @@ import { createSlice } from "@reduxjs/toolkit";
 const dataSlice = createSlice({
 name : 'dataSlice',
 initialState : [
-    {name:'yogi',age:'24',course:'B.E.',batch:'17'},
-    {name:'virat',age:'23',course:'btech',batch:'18'}
+    {name:'yogi',age:'24',course:'B.E.',batch:'EA15'},
+    {name:'virat',age:'23',course:'btech',batch:'EA18'},
+    {name:'yogendra',age:'25',course:'B.E.',batch:'EA20'},
+    {name:'rohit',age:'29',course:'M.E.',batch:'EA15'},
 ],
 reducers : {
     editData:(state, action)=>{
